@@ -336,7 +336,7 @@ describe('Ui Division - Component', () => {
   //fixture.detectChanges();
   divisionButton.triggerEventHandler('click', null);
 
-  // Assert
+  // Assert .
   expect(component.result).toBe(3.2);
 
  });
